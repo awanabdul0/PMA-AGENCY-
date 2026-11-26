@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PMA Agency</title>
+  <meta name="description" content="Streetwear etico in cotone organico. Capi senza tempo, edizioni limitate, produzione trasparente.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="loading">
+  <div id="page-loader" class="page-loader" role="status" aria-label="Caricamento">
+    <div class="loader">
+      <div class="loader-ring"></div>
+      <p class="loader-name">sito abbigliamento</p>
+      <p class="loader-msg">Caricamento…</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <a href="#" class="logo" aria-label="sito abbigliamento, home">sito abbigliamento<span>.</span></a>
+    <nav class="header-actions">
+      <button id="cart-toggle" class="cart-btn" aria-label="Apri il carrello">
+        Carrello <span id="cart-badge" class="badge">0</span>
+      </button>
+    </nav>
+  </header>
+
+  <section class="hero reveal">
+    <div class="hero-text">
+      <p class="eyebrow">Ethical Streetwear · Cotone organico GOTS</p>
+      <h1>Vesti forte.<br>Pesa leggero sul pianeta.</h1>
+      <p>Capi pensati per durare, prodotti con filiera trasparente e salari equi. Spedizione gratuita oltre 50&nbsp;&euro;.</p>
+      <a href="#catalogo" class="btn btn-primary">Scopri la collezione</a>
+    </div>
+  </section>
+
+  <section class="values container reveal">
+    <div><strong>100% organico</strong><span>Cotone certificato GOTS</span></div>
+    <div><strong>Filiera etica</strong><span>Produzione in Portogallo</span></div>
+    <div><strong>Edizioni limitate</strong><span>Mai ristampate</span></div>
+    <div><strong>Resi 30 giorni</strong><span>Semplici e gratuiti</span></div>
+  </section>
+
+  <main id="catalogo" class="container">
+    <h2 class="reveal">La collezione</h2>
+
+    <div class="toolbar">
+      <label class="field">
+        <span>Cerca</span>
+        <input type="search" id="search" placeholder="Es. oversize, nero, limited…" autocomplete="off">
+      </label>
+      <label class="field">
+        <span>Categoria</span>
+        <select id="category-filter">
+          <option value="all">Tutte</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>Ordina per prezzo</span>
+        <select id="sort">
+          <option value="none">Predefinito</option>
+          <option value="asc">Crescente</option>
+          <option value="desc">Decrescente</option>
+        </select>
+      </label>
+    </div>
